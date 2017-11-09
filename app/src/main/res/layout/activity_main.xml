@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="br.com.caelum.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:background="#39ac1f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar numero" />
+
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mandar por sms"/>
+</LinearLayout>
